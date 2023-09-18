@@ -1,0 +1,9 @@
+<h1 class="heading">Mycomponent </h1>
+<input type="text" #first>
+<input type="text" #second> <br>
+<input type="button" (click)="add(first.value, second.value)"> Add
+<input type="button" (click)="mul(first.value, second.value)"> Multiply
+<input type="button" (click)="sub(first.value, second.value)"> sub
+<input type="button" (click)="div(first.value, second.value)"> div
+<p>{{ result }}</p>
+   
